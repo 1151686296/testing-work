@@ -1,269 +1,254 @@
+<!DOCTYPE html>
 <html>
 
 <head>
 	<title>Parcel Sandbox</title>
 	<meta charset="UTF-8" />
-<style type="text/css">
-  .div1{
-		width:980px;
-		height:1486px;
-    background-color:daeff9;
-		margin:20px auto;
-		position:relative;
-	}/*大背景  内部元素都参照背景进行定位*/
-  .div2{
-		width:110px;
-		height:61px;
-		background-color:#0e435c;
-		position:absolute;
-		top:0px;
-		left:44px;
-		 font-family:"microsoft yahei";
-		 color:white; 
-		 font-size:10px; 
-		 text-align:center;
-	}/*顶部小色块*/
+	<style type="text/css">
+		.txtcenter {
+			width: 1000px;
+			height: 5000px;
+			margin: 0px auto;
+			position:relative;
+		}
 
-.div3{
-    width:880px;
-		height:2px;
-		background-color:#0e435c;
-    position:relative;
-		top:61px;
-		left:44px;
-}/*顶部水平横线*/
-
-.img1{
- position:relative ;
- top:80px ;
- left:44px;
-}/*题图位置*/
-
-.div4{
-	border-top:2px solid #ff7895;
-	width:179px;
-	height:301px;
-	position:relative;
-	left:705px;
-	bottom:221px;
-	/*background-color:pink;*/
-	padding:15px;
-}/*题图右边块*/
-
-a{
-	font-style:italic;
-	font-family:"microsoft yahei";
-	color:#004983;
-	height:120px;
-	line-height:120px;
-}/*700*/
-
-.div5{
-	float:left;
-	font-size:12px;
-	width:201px;
-	height:203px;
-  /*background-color:pink;border:red solid 1px;*/
-	position:relative;
-	bottom:205px;
-	left:44px;
-	padding:10px;
-}/*www三姐妹*/
-.b{
-font-size:16px; 
-font-weight:bold;
-text-decoration:underline; 
-font-family:"microsoft yahei";
-color:#0e435c;
-}/*三姐妹字体*/
-
-.div6{
-	/*background-color:pink;*/
-	width:415px;
-	height:450px;
-	border-bottom:3px solid #0e435c;
-	position:relative;
-	left:44px;
-	bottom:150px;
-}/*图二左边那块*/
-
-.img2{
-  position:relative;
-	left:500px;
-	bottom:360px;
-	width:404px;
-}/*图二黑洞的位置*/
-
-.div7{
-  /*background-color:pink;*/
-  width:415px;
-	height:350px;
-  position:relative; 
- 	left:44px; 
-	bottom:350px;
-}/*左下角*/
-
-.img3{
-	position:relative;
-	bottom:300px;
-	left:240px;
-	width:180px;
+		/*ROOM*/
+.tubiao{
+	background-color:;
+	width:600px;
+	height:200px;
+	position:absolute;
+	left:450px;
+	top:550px;
 }
 
-.div8{
-	background-color:white;
-	width:404px;
-	height:385px;
-	position:relative;
-	left:500px;
-	bottom:680px;
-}/*右下角*/
 
-.div9{
-	 width:865px; 
-	 height:2px; 
-	 background-color:#0e435c;
+		.headlablel {
+			width: 79px;
+			height: 29px;
+			color: white;
+			font-size: 12px;
+			line-height: 29px;
+			/*background-color:white;opacity:0.16; */
+			background-color: rgba(0, 0, 0, 0.5) text-align:center;
+			float: left;
+		}
+
+		.headlablelbox {
+			width: 480px;
+			height: 28px;
+			position: relative;
+			left: 507px;
+			bottom: 575px;
+
+		}
+
+		.transparentblock {
+			width: 18px;
+			height: 29px;
+			float: left;
+		}
+.biaoti{ background-color:; 
+width:800px; height:400px; 
+position:relative;left:0;
+bottom:50px; } 
+.lable1{ position:relative; top:0; 
+ left:51px; }
+ .lable2{
 	 position:relative;
-	 bottom:640px;
-	 left:44px;
-}/*底部横线*/
+	 left:19px;
+	 top:10px;
+ }
+ .lable3{
+	 position:relative; left:56px; top:20px; 
+ }
+ .lable4{
 
-.div10{
-   width:184px;
-	 height:120px;
-	 background-color:#0e435c;
-	 position:relative;
-	 top:210px;
-	 left:10px;
-	 padding:10px;
-}/*右下角  的  左下角小块*/
+	 position:relative; left:220px; top:30px;
+ }
+ .lable5{
+	 position:relative; left:20px; top:24px;
+ }
+ .lable6{
+	 position:relative; left:54px; top:40px;
+ }
+ .block1{ background-color:#9398a7; 
+ height:724px;width:194px; 
+ position:absolute; 
+ top:907px;
+ }
+ .block2{ background-color:#9c5b57; 
+ height:724px;width:194px; 
+ position:absolute; 
+ top:1007px; left:203px;
+ }
+ .block3{ background-color:#d4bfc4; 
+ height:724px;width:194px; 
+ position:absolute;
+  top:928px;
+	 left:403px;
+	 }
+ .block4{ background-color:#4d5579;
+  height:792px;width:194px; 
+	position:absolute;
+	 top:786px; left:602px; 
+	 }
+	 .block5{ background-color:#b0adbe; 
+	 height:724px;width:194px;
+	  position:absolute; 
+		top:699px; 
+		left:805px; }
+	.xiao{
+		font:38px "Microsoft Yahei UI";
+		
+	}	
+	.da{
+		 font:18px "Microsoft Yahei UI";
+	}
+		.wenzi{
+		 margin: 0 auto; height: 634px;width:210px; writing-mode: vertical-lr;writing-mode: tb-rl;
+		 display:table-cell;vertical-align:middle;line-height:30px;
+			float:right;position:relative;top:36px;right:29px;
+		}
+		.red{
+			height:183px;
 
-.div11{
-  width:346px; 
-	height:130px;
-  background-color:#ffe5e5;
-  position:relative; 
-	bottom:100px; left:10px;
-	padding:15px;
-	line-height:2em;
-}/*右下角  的  上部小块*/
+		}
+		.aboutus {
+			width: 180px;
+			height: 32px;
+			font-size: 32px;
+			line-height: 32px;
+			text-align: center;
+			position: relative;
+			left: 176px;
+			bottom: 100px;
+			color: black;
+			font-weight: bold;
 
-.div12{
- width:160px; 
- height:135px; 
- background-color:#ffe5e5; 
- position:relative;  
- left:207px;
- bottom:110px;
- padding:10px;
-}/*右下角 的  右部小块*/
+			.lablel2 {
+				width: 10px;
+				height: 28px;
+				font-size: 12px;
+				line-height: 28px;
+				text-align: center;
+				position: relative;
+				left: px;
+				bottom: px;
+				background-color: red;
+			}
+			/*introduction*/
+			.logo1 {
+				width: 564px;
+				height: 100px;
+				position: relative;
+				left: 437px;
+				background-color: red;
+				bottom: 90px;
+			}
+			.img1 {
+				position: relative;
+				left: 437px;
+				bottom: 90px;
+			}
 
-.div13{
-    width:2px;
-		height:86px;
-		background-color:white;
-		position:relative; 
-		left:53px; bottom:100px;
-}/*右下角  的  小兰的小竖线*/
-
-.div14{
-	 position:relative; left:58px; bottom:185px;
-	 color:white;
-}/*右下角 的 小兰的右边一堆*/
-</style>
+	</style>
 </head>
 
 <body>
-  <div class="div1">
-     <div class="div2" ><br/><br/><br/>ife.baidu.com</div>
-		 <div class="div3"></div>
-		 <img src ="https://uploads.codesandbox.io/uploads/user/0e212b6e-3a4a-40ef-ae66-28ef01b7ebeb/3bhk-%E8%9B%9B%E7%BD%91.jpg"
-		 alt="标题图"  title="前端"  width=610px  height=310px  class="img1"/>
-  
-	<!--下面是右上角的那块-->
-  <div class="div4"><span style="text-decoration:underline"><span style="font-size:30px">A</span><span style="font-size:20px">BOUT</span><br/>TECHNOLOGE</span>
-		<p style="font-size:8px">about technologe about technologe about technologe about technologe</p>
-		<div  style="font-size:90px" ><a>700</a></div>
-		<div style="font-size:50px;float:left;">3.2</div>
-		<div style="font-size:21px;float:left;height:40px">css<br/><span style="font-size:12px">csscsscsscsscss</span></div>
-	</div>
-
-	<!--what when how三姐妹-->
-	<div class="div5">
-	  <div  class="b">what</div>
-		<p>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
-	</div>
-
-	<div class="div5">
-		<div class="b">when</div>
-		<P>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
-		</P>
-	</div>
-	
-	<div class="div5">
-		<div class="b">how</div>
-		<p>端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前</p>
-	  <p style="font-size:15px；font-style:italic; font-family:"microsoft yahei";">
-			when·····40%<br/>
-			how······40%<br/>
-			how······40%<br/>
-		</p>
-	</div>
-
-<!--二图左边的块块-->
-<div class="div6">
- <div><span  style="font-size:65px;font-family:"黑体";font-weight:bold;"><span style="color:#ff7895;font-style:italic;">THE</span> </span>
-      <span  style="font-size:39px;font-family:"黑体";font-weight:bold;line-height:13px;"><span style="color:#0e435c">TECHNOLOGE <br/>OF FRONT AREA<br/><br/><span style="font-size:32px;line-height:10px;">前端技术领域</span></span></span></div>
-</div>
-
-<!--图二  黑洞-->
-<img src="https://uploads.codesandbox.io/uploads/user/0e212b6e-3a4a-40ef-ae66-28ef01b7ebeb/pnUx-%E9%BB%91%E6%B4%9E1.jpg"
-title="图二 数据黑洞"  class="img2" />
-
-<!--左下角-->
-<div  class="div7">
-   <div style="font-size:70px;color:#ff7895;float:left;">前&nbsp;</div>
-	 <div style="height:90px;">端前端前端端前端前端前端前端前端前端前端前端前端前端前端前前端前端端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前</div>
-   <div style="width:210px;">端前端前端前端端前端前端前端前端端前端前端前端前端端前端前端前端前端端前端前端前端前端端前端前端前端前端端前端前端前端前端端前端前端前端前前端前端前前端前端前端前端前前端前端前端前端前前端前端前端前端前前端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前前端前端
-	</div>
-	<img src="https://uploads.codesandbox.io/uploads/user/0e212b6e-3a4a-40ef-ae66-28ef01b7ebeb/LrAR-%E4%BD%9C%E4%B8%9A%E5%9B%BE%E4%B8%89.jpg"
-	 class="img3"/>
-</div>
-
-<!--右下角-->
-<div class="div8">
-   <div class="div10">
-		 <span style="font-size:70px;color:white;line-height:120px;">0</span>
-		 <div class="div13"></div>
-   <div class="div14">ONE TWO<br/>THREE FOUR <br/><span style="font-size:12px">HELLO WORLD HELLO <br/>HELLO WORLD</span></div>
-	 </div>
-  
-	 <div class="div11">
-		 <ul>
-			<li>前端前端前端········································<span style="font-size:13px;color:#1f3d7a;">前端</span></li>
-			<li>前端前端前端········································<span style="font-size:13px;color:#1f3d7a;">前端</span></li>
-			<li>前端前端前端········································<span style="font-size:13px;color:#1f3d7a;">前端</span></li>
-    </ul>
-	 </div>
-  
-	
-	 <div class="div12">
-     <span style="font-size:50px;font-family:"宋体",sans-serif;color:#0e435c;">“</span>
-		 <span style="line-height:1.5em">前端前端前前前端前端前端前前端前端前端前端前端前端
-<span style="font-size:50px;font-family:"宋体",sans-serif;color:#0e435c;">。</span>
-	 </div>
 
 
+	<!--ROOM-->
+	<div class="txtcenter">
+
+		<!--题图-->
+		<img src="https://uploads.codesandbox.io/uploads/user/0e212b6e-3a4a-40ef-ae66-28ef01b7ebeb/vTGO-%E5%9B%BE%E5%B1%82%202.png"
+		 alt="figurecaption" title="figurecaption" width=1000px/>
+
+		<div class="headlablelbox">
+			<div class="headlablel">HOME</div>
+			<div class="transparentblock"></div>
+			<div class="headlablel">FORUM</div>
+			<div class="transparentblock"></div>
+			<div class="headlablel">FORUM</div>
+			<div class="transparentblock"></div>
+			<div class="headlablel">INFORM</div>
+			<div class="transparentblock"></div>
+			<div class="headlablel">NETDISK</div>
+			<div class="transparentblock"></div>
+		</div>
+
+
+		<div class="aboutus">
+			About &nbsp;Us
+		</div>
+
+
+		<!--图标系列一-->
+<div class="tubiao">
+<img src="https://uploads.codesandbox.io/uploads/user/0e212b6e-3a4a-40ef-ae66-28ef01b7ebeb/ezYr-%E7%B2%BE%E5%BC%98%E7%BD%91%E7%9B%98.PNG
+ " width=102px class="img1" style="padding-bottom:20px"/>
+
+		<img src="https://uploads.codesandbox.io/uploads/user/0e212b6e-3a4a-40ef-ae66-28ef01b7ebeb/QTnL-FEEL%E7%94%B5%E5%8F%B0.PNG"
+		 alt="FEEL电台" width=81px style="padding-bottom:10px;padding-left:10px;"/>
+
+		<img src="https://uploads.codesandbox.io/uploads/user/0e212b6e-3a4a-40ef-ae66-28ef01b7ebeb/a7ki-aaaa.png" width=85px style="padding-bottom:0;;padding-left:10px"/>
+
+
+		<img src="https://uploads.codesandbox.io/uploads/user/0e212b6e-3a4a-40ef-ae66-28ef01b7ebeb/D4Ep-%E5%B7%A5%E5%A4%A7%E5%9C%88%E5%9C%88.PNG
+ " width=76px style="padding-bottom:10px;padding-left:10px"/>
+
+		<img src="https://uploads.codesandbox.io/uploads/user/0e212b6e-3a4a-40ef-ae66-28ef01b7ebeb/a7ki-aaaa.png" width=85px style="padding-bottom:30px;padding-left:10px"/>
 </div>
 
 
+		<div class="biaoti">
+		<div class="lable1">
+		<div style="background-color:black;color:white;width:88px;height:31px;text-align:center;line-height:30px;foalt:left;">FOUND IN</div>
+		<div style="font:15px 'Microsoft Yahei';color:black;width:100px;position:relative;bottom:25px;left:95px;">2002.5</div></div>
+			<div class="lable2">
+				<div style="background-color:white;color:black;width:88px;height:28px;text-align:center;line-height:30px;border-color:black;border-style:solid; border-width:2px;">NAME OF</div>
+			<div style="font:15px 'Microsoft Yahei';color:black;width:300px;position:relative;bottom:25px;left:95px;"> 浙工大学风“取精用弘”</div></div>
+			<div class="lable3">
+				<div style="background-color:black;color:white;width:88px;height:31px;text-align:center;line-height:30px;float:left;">DEFINE</div>
+			<div style="font:15px 'Microsoft Yahei';color:black;width:300px;position:relative;bottom:-5px;left:5px;"> 校园服务交流平台</div></div>
+			<div class="lable4">
+				<div style="background-color:black;color:white;width:88px;height:31px;text-align:center;line-height:30px;float:left;">SPIRIT</div>
+				<div style="font:21px 'Microsoft Yahei';color:black;width:600px;position:relative;bottom:0;left:5px;"> 自由、共享、团结、创新</div></div>
+			<div class="lable5">
+				<div style="background-color:white;color:black;width:200px;height:28px;text-align:center;line-height:30px;border-color:black;border-style:solid;
+				border-width:2px;">OFFLINE ACTIVITY</div>
+			<div style="font:15px 'Microsoft Yahei';color:black;width:300px;position:relative;bottom:25px;left:210px;"> 精弘毅行</div>
+			</div>
+			<div class="lable6">
+				<div style="background-color:black;color:white;width:150px;height:31px;text-align:center;line-height:30px;">ONLINE SERVICE</div>
+				<div style="font:21px 'Microsoft Yahei';color:black;width:340px;text-align:left;height:200px;position:relative;bottom:50px;left:160px;">精弘论坛、精弘网盘、工大圈圈、</br>FEEL电台、精小弘在线、</br>精弘文档、精弘微博</div></div>
+		</div>
+		<div><div class="block1">
+			<div class="wenzi"><div class="xiao">精弘网盘</div> <div class="da">U盘？闪讯？CMCC？那是什么东西？精弘 网盘可以同时支持外网和 内网直接访问，只要用精弘通行证登陆即可使用。 麻麻再也不用担心 上机课忘记带U盘啦~还可以支持在线播放网盘里的音乐哟~</div></div></div>
+<div class="block2">
+	<div class="wenzi"><div class="xiao">精弘资讯</div> <div class="da">既汇集了校内最新资讯，又有我们自己的创意集锦。每一条实时资讯， 都记录着工大日常的点点滴滴，为工大人创设了一个属于自己的平台。 无论是音乐影视旅行美食还是前辈经验，精弘资讯一直为满足工大人的 品味需求而存在。</div></div>
+	</div>
+<div class="block3">
+	<div class="wenzi"><div class="xiao">FEEL电台</div>
+	<div class="da"> 设有各类风格不同的节目，每月都会定期推送录播 节目以及每日的直播 节目。秉承着丰富工大人生活的宗旨，树立起为工大人 服务的目标， 致力于打造工大最美的声音。</div></div>
+	</div>
+<div class="block4"><div class="wenzi">
+	<div class="xiao">精弘论坛</div><div class="da">论坛已开设实习创业就业、 For U维权、学习资源、学术人生、同乡情 谊、租房二手、情感秘密、 电脑网络、学生兼职、音乐影视等主要版块 涉及到工大学子从入学到 就业的方方面面，为全校师生提供便利。</div></div></div>
+<div class="block5"><div class="wenzi">
+	<div class="xiao">工大圈圈</div>
+	<div class="da"> 一个全新的校内活动发布平台，给你工大197个 社团和8大组织的所有，为工大之人不再错过工大之事。</div></div></div>
+		</div>
+		<div class="red"></div>
 
 
-<!--底部横线-->
-<div class="div9"></div>
+
+
+
+
+
 
 	</div>
-
 </body>
 
 </html>
