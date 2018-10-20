@@ -1,3 +1,3 @@
 ﻿<?php
-$num = 12.8;
-printf("%%s",$num);
+echo "许秉灏最帅";
+echo "<p>许秉灏最帅</p>";
