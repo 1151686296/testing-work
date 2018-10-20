@@ -1,3 +1,8 @@
 ﻿<?php
-echo "许秉灏最帅";
-echo "<p>许秉灏最帅</p>";
+
+function xbh($agr, $class)
+{
+    echo $agr."<br/>";
+    echo  $class."<br/>";
+}
+xbh(21, hello);
