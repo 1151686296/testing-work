@@ -1,9 +1,12 @@
 ﻿<?php
 
-function xbh($agr, $class)
+function xbh()
 {
-    echo $agr."<br/>";
-    echo  $class."<br/>";
+    static $num =0;
+    $num ++;
+    echo $num;
+
 }
-xbh（12，21）;
-echo $class;
+xbh();
+xbh();
+xbh();
