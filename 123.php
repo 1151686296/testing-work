@@ -1,12 +1,7 @@
 ﻿<?php
-
 function xbh()
 {
-    static $num =0;
-    $num --;
-    echo $num;
-echo "<br/>";
+    global $x;
+    $x =10;
 }
-xbh();
-xbh();
-xbh();
+echo $x;
