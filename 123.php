@@ -1,8 +1,10 @@
 ﻿<?php
-function xbh()
+$x=5;
+$y=10;
+function xbhzs()
 {
-    global $x;
-    $x =10;
+    global $x,$y;
+    $y=$x+$y;
 }
-xbh();
-echo $x;
+xbhzs();
+echo $y;
