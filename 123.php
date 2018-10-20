@@ -3,9 +3,9 @@
 function xbh()
 {
     static $num =0;
-    $num ++;
+    $num --;
     echo $num;
-
+echo "<br/>";
 }
 xbh();
 xbh();
