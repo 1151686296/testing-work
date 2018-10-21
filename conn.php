@@ -1,6 +1,6 @@
 <?php
 //建立数据库连接；
-$conn=mysqli_connect("119.23.18.102","root","23AE809DDACAF96AF0FD78ED04B6A265E05AA257","xbhzs");
+$conn=mysqli_connect("119.23.18.102","root","8huDV2BmaKUq3Ivb","xbhzs");
 //设置字符为utf-8，@抑制字符变量的声明提醒。
 @ mysqli_set_charset ($conn,utf8);
 @ mysqli_query($conn,utf8);
@@ -9,4 +9,3 @@ if (mysqli_connect_errno($conn))
 {
     echo "连接 MySQL 失败: " . mysqli_connect_error();
 }
-?>
