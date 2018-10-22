@@ -6,7 +6,7 @@ if ($_GET["fname"]=许秉灏)
 {
     echo 他是个帅哥;
 }
-if ($_GET["fname"]=张浩楠)
+else if ($_GET["fname"]=张浩楠)
 {
     echo 这是个丑逼;
 }
