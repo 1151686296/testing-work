@@ -4,11 +4,11 @@
 <?php
 if ($_GET["fname"]=许秉灏)
 {
-    echo 他是个帅哥;
+    echo "是个帅哥";
 }
 else
 {
-    echo 这是个丑逼;
+    echo "绝壁丑逼";
 }
 
 ?>
