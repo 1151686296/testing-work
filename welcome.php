@@ -6,10 +6,10 @@
 <body>
 <form method="post">
     <input type="text" name="age">
-    <input type="submit" value="提交" name="ok">
+    <input type="submit" value="提交" name="name">
 </form>
 <?php
-if(!isset($_POST["ok"]))
+if(!isset($_POST["name"]))
 {
     echo $_POST["age"];
 }
