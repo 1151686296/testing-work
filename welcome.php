@@ -5,7 +5,7 @@
 </head>
 <body>
 <form method="post">
-    <input type="text" name="agr">
+    <input type="text" name="age">
     <input type="submit" value="提交">
 </form>
 <?php
