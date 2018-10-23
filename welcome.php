@@ -22,7 +22,7 @@ if(!isset($_POST["submit"]))
 <?php
 if (!isset($_POST["submit"]))
 {
-    echo "帅哥";
+    echo $_POST["345"];
 }
 ?>
 </body>
