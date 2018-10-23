@@ -14,5 +14,15 @@ if(!isset($_POST["submit"]))
     echo $_POST["age"];
 }
 ?>
+<form method="post">
+    <input type="submit" value="123">
+
+</form>
+<?php
+if (!isset($_POST["submit"]))
+{
+    echo "帅哥";
+}
+?>
 </body>
 </html>
