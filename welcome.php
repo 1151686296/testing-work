@@ -9,7 +9,7 @@
     <input type="submit" value="提交" name="name">
 </form>
 <?php
-if(!isset($_POST["name"]))
+if(!isset($_POST["submit"]))
 {
     echo $_POST["age"];
 }
