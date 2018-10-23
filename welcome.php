@@ -15,6 +15,7 @@ if(!isset($_POST["submit"]))
 }
 ?>
 <form method="post">
+    <input type="text" name="345"
     <input type="submit" value="123">
 
 </form>
