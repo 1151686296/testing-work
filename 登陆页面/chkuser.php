@@ -24,7 +24,7 @@ class chkinput{
 	       {
 			   session_start();
 	           $_SESSION['username']=$info['username'];
-               $_SESSION['ID']=$info['ID'];
+               $_SESSION['password']=$info['password'];
                header("location:admin.php");
                exit;
             }
