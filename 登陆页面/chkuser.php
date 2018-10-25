@@ -1,4 +1,4 @@
-
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
 <?php
 include("conn.php");
 $username=$_POST['username'];
