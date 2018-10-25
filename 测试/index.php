@@ -263,7 +263,7 @@ top:1282px;
                 $info=mysqli_fetch_array($sql);
                 ?>
 
-                <div class="da"><br/><?php$info["内容"];?></div></div></div>
+                <div class="da"><br/><?php echo $info["内容"];?></div></div></div>
 
 <div class="block2">
 	<div class="wenzi"><div class="xiao">精弘资讯</div>
