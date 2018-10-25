@@ -14,7 +14,7 @@ class chkinput{
 
    function checkinput(){
      include("conn.php");
-       $sql=mysqli_query($conn,"select * from user where user='".$this->name."'" );
+       $sql=mysqli_query($conn,"select * from 账号密码 where username='".$this->name."'" );
      $info=mysqli_fetch_array($sql);
      if($info==false){
           echo "<script language='javascript'>alert('账户输入错误！');history.back();</script>";
