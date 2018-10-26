@@ -251,7 +251,10 @@ top:1282px;
 			<div class="lable6">
 				<div style="background-color:black;color:white;width:150px;height:31px;text-align:center;line-height:30px;">ONLINE SERVICE</div>
 				<div style="font:21px 'Microsoft Yahei';color:black;width:340px;text-align:left;height:200px;position:relative;bottom:50px;left:160px;">精弘论坛、精弘网盘、工大圈圈、</br>FEEL电台、精小弘在线、</br>精弘文档、精弘微博</div></div>
-		</div>
+            <?php
+            include ("conn.php");
+            ?>
+        </div>
 		<div class="block1">
 			<div class="wenzi">
 				<div class="xiao">精弘网盘</div>
