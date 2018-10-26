@@ -1,22 +1,23 @@
-<?php
-session_start();
-var_dump($_SESSION['inter']);
-$inter=$_SESSION['inter'];
-if($inter=1)
-{
-    header("location:index.html");
-}
-?>
+
 <html>
 <head>
     <meta charset="UTF-8">
     <title>123</title>
 </head>
 <form method="post" action="反馈数据库.php">
+    <?php
+    session_start();
+    var_dump($_SESSION['inter']);
+    $inter=$_SESSION['inter'];
+    if($inter=1)
+    {
+        header("location:index.html");
+    }
+ else{
 
-<?php
+
 require_once ('conn.php');
-?>
+}?>
 <?php
 $sql=mysqli_query($conn,"select * from 修改内容 where id=1");
 $info=mysqli_fetch_array($sql);
