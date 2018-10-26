@@ -25,9 +25,10 @@ class chkinput{
 			   session_start();
 	           $_SESSION['username']=$info['username'];
                header("location:admin.php");
-               exit;
                session_start();
                $_SESSION['inter']=1;
+               exit;
+
             }
              else {
 			   echo "<script language='javascript'>alert('密码输入错误！');history.back();</script>";
