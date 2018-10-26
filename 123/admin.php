@@ -6,7 +6,3 @@
    {
        header("location:index.html");
    }
-else
-{
-    echo "welcome";
-}
