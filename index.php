@@ -256,31 +256,44 @@ top:1282px;
 			<div class="wenzi">
 				<div class="xiao">精弘网盘</div>
                 <?php
-                require_once ('conn.php');
-                ?>
-                <?php
-                $sql=mysqli_query($conn,"select * from 修改内容 where id=1");
+                $sql=mysqli_query($conn,"select * from 修改内容 where id='精弘网盘'");
                 $info=mysqli_fetch_array($sql);
                 ?>
-
-                <div class="da"><br/><?php echo $info["内容"];?></div></div></div>
-
+				 <div class="da"><br/><?php echo $info["内容"]; ?></div></div></div>
 <div class="block2">
+    <?php
+    $sql=mysqli_query($conn,"select * from 修改内容 where id='精弘资讯'");
+    $info=mysqli_fetch_array($sql);
+    ?>
 	<div class="wenzi"><div class="xiao">精弘资讯</div>
-	 <div class="da"><br/>既汇集了校内最新资讯，又有我们自己的创意集锦。每一条实时资讯， 都记录着工大日常的点点滴滴，为工大人创设了一个属于自己的平台。 无论是音乐影视旅行美食还是前辈经验，精弘资讯一直为满足工大人的 品味需求而存在。</div>
+	 <div class="da"><br/><?php echo $info["内容"]; ?></div>
 	</div></div>
 	
 	
 		
 <div class="block3">
+    <?php
+    $sql=mysqli_query($conn,"select * from 修改内容 where id='feel电台'");
+    $info=mysqli_fetch_array($sql);
+    ?>
 	<div class="wenzi"><div class="xiao">FEEL电台</div>
-		<div class="da"><br/>设有各类风格不同的节目，每月都会定期推送录播节目以及每日的直播节目。秉承着丰富工大人生活的宗旨，树立起为工大人 服务的目标， 致力于打造工大最美的声音。</div></div>
+		<div class="da"><br/><?php echo $info["内容"]; ?></div></div>
 </div>
-<div class="block4"><div class="wenzi">
-	<div class="xiao">精弘论坛</div><div class="da"><br/>论坛已开设实习创业就业、 For U维权、学习资源、学术人生、同乡情 谊、租房二手、情感秘密、 电脑网络、学生兼职、音乐影视等主要版块 涉及到工大学子从入学到 就业的方方面面，为全校师生提供便利。</div></div></div>
-<div class="block5"><div class="wenzi">
+<div class="block4">
+    <?php
+    $sql=mysqli_query($conn,"select * from 修改内容 where id='精弘论坛'");
+    $info=mysqli_fetch_array($sql);
+    ?>
+    <div class="wenzi">
+	<div class="xiao">精弘论坛</div><div class="da"><br/><?php echo $info["内容"]; ?></div></div></div>
+<div class="block5">
+    <?php
+    $sql=mysqli_query($conn,"select * from 修改内容 where id='工大圈圈'");
+    $info=mysqli_fetch_array($sql);
+    ?>
+    <div class="wenzi">
 	<div class="xiao">工大圈圈</div>
-	<div class="da"> <br/>一个全新的校内活动发布平台，给你工大197个 社团和8大组织的所有，为工大之人不再错过工大之事。</div></div></div>
+	<div class="da"> <br/><?php echo $info["内容"]; ?></div></div></div>
 		
 		<div class="red">
 			 精弘十六载<br/> 长路漫漫 与你同在
