@@ -141,15 +141,12 @@ if($inter<>2)
 		 <div class="zuo">
 		  <div class="box2">
 		   
-		   <img src="https://uploads.codesandbox.io/uploads/user/3cc99fe1-109b-4238-b6a6-848e402878db/nwEg-fbc5e52c8dca2ff66794c911d00c194b.gif" height="90px" width="90px"/> 
-			 
-              <div class="guan">管理员：
-                  <?php
-                  session_start();
-                  $username=$_SESSION["username"];
-                  echo $username;
-                  ?>
-                  <br/>状态：<br/>权限等级:
+		   <img src="https://uploads.codesandbox.io/uploads/user/3cc99fe1-109b-4238-b6a6-848e402878db/nwEg-fbc5e52c8dca2ff66794c911d00c194b.gif" height="90px" width="90px"/>
+              <?php
+              session_start();
+              $username=$_SESSION["username"];
+              ?>
+              <div class="guan">管理员：<?php echo $username; ?><br/>状态：<br/>权限等级:
 		   </div>
 		  </div>
 		  <div class="cala">CATALOGUE
