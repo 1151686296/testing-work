@@ -5,7 +5,6 @@ $username=$_POST['username'];
 $userpwd=$_POST['password'];
  session_start();
 $_SESSION['username']=$username;
-$_SESSION['userpwd']=$userpwd;
 class chkinput{
    var $name;
    var $pwd;
