@@ -5,11 +5,14 @@
 </head>
 <form method="post" action="反馈数据库.php">
     <?php
-    $fromurl="http://119.23.18.102/%E7%99%BB%E9%99%86%E9%A1%B5%E9%9D%A2/"; //跳转往这个地址。
-    if( $_SERVER['HTTP_REFERER'] == "http://119.23.18.102/%E6%B5%8B%E8%AF%95/%E4%BF%AE%E6%94%B9%E6%B5%8B%E8%AF%95.php" )
-    {
-    header("Location:".$fromurl); exit;
+
+    if($_SERVER['HTTP_REFERER'] == "http://119.23.18.102/%E6%B5%8B%E8%AF%95/%E4%BF%AE%E6%94%B9%E6%B5%8B%E8%AF%95.php"){
+        echo "<script>alert('本系统不允许从地址栏访问');</script>";
+        echo "<script>window.close();</script>";
+        exit;
+
     }
+
     ?>
 <?php
 require_once ('conn.php');
