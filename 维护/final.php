@@ -167,7 +167,7 @@ if($inter<>2)
     ?>
 	<label for="myName">工大圈圈----------</label>
 	<input type="text" name="text1" class="xiao" value="<?php echo $info["内容"]; ?>">
-	<input type="button" value="确认更改" onclick="1" class="quer"><br/>
+	<input type="submit" value="确认更改" onclick="1" class="quer"><br/>
 </form>
  <form method="post" action="精弘论坛.php">
     <?php
@@ -176,7 +176,7 @@ if($inter<>2)
     ?>
 	<label for="myName">精弘论坛----------</label>
 	<input type="text" name="text2" class="xiao" value="<?php echo $info["内容"]; ?>">
-	<input type="button" value="确认更改" onclick="1" class="quer"><br/>
+	<input type="submit" value="确认更改" onclick="1" class="quer"><br/>
  </form>
 <form method="post" action="feel电台.php">
     <?php
@@ -185,7 +185,7 @@ if($inter<>2)
     ?>
     <label for="myName">feel电台----------</label>
 	<input type="text" name="text3" class="xiao" value="<?php echo $info["内容"]; ?>">
-	<input type="button" value="确认更改" onclick="1" class="quer"><br/>
+	<input type="submit" value="确认更改" onclick="1" class="quer"><br/>
 </form>
 <form method="post" action="精弘网盘.php">
     <?php
@@ -194,7 +194,7 @@ if($inter<>2)
     ?>
 <label for="myName">精弘网盘----------</label>
 	<input type="text" name="text4" class="xiao" value="<?php echo $info["内容"]; ?>">
-	<input type="button" value="确认更改" onclick="1" class="quer"><br/>
+	<input type="submit" value="确认更改" onclick="1" class="quer"><br/>
 </form>
 <form method="post" action="精弘资讯.php">
     <?php
@@ -203,7 +203,7 @@ if($inter<>2)
     ?>
 <label for="myName">精弘资讯----------</label>
 	<input type="text" name="text5" class="xiao" value="<?php echo $info["内容"]; ?>">
-	<input type="button" value="确认更改" onclick="1" class="quer">
+	<input type="submit" value="确认更改" onclick="1" class="quer">
 </form>
 		</div>
 		
