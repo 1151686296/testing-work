@@ -6,7 +6,7 @@
 <form method="post" action="反馈数据库.php">
     <?php
 
-    if($_SERVER['HTTP_REFERER'] == "//119.23.18.102/测试/修改测试.php"){
+    if($_SERVER['HTTP_REFERER'] == "119.23.18.102/测试/修改测试.php"){
         echo "<script>alert('本系统不允许从地址栏访问');</script>";
         echo "<script>window.close();</script>";
         exit;
