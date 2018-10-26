@@ -2,7 +2,7 @@
 session_start();
 var_dump($_SESSION['inter']);
 $inter=$_SESSION['inter'];
-if($inter<>1)
+if($inter=1)
 {
     header("location:index.html");
 }
