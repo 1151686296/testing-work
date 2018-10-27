@@ -361,11 +361,11 @@ bottom:880px;
     
         
             <div class="headlablelbox">
-                <div class="headlablel"><a href="bbs.zjut.edu.cn/" title="点击进入精弘首页" target="_blank">HOME</a></div>
-                <div class="headlablel"><a href="bbs.zjut.edu.cn/" title="点击进入精弘电台" target="_blank">RADIO</a></div> 
-                <div class="headlablel"><a href="bbs.zjut.edu.cn/" title="点击进入精弘论坛" target="_blank">FORUM</a></div>
-                <div class="headlablel"><a href="bbs.zjut.edu.cn/" title="点击进入精弘资讯" target="_blank">INFORM</a></div>
-                <div class="headlablel"><a href="bbs.zjut.edu.cn/" title="点击进入精弘云盘" target="_blank">NETDISK</a></div>
+                <div class="headlablel"><a href="http://bbs.zjut.edu.cn/" title="点击进入精弘首页" target="_blank">HOME</a></div>
+                <div class="headlablel"><a href="http://bbs.zjut.edu.cn/" title="点击进入精弘电台" target="_blank">RADIO</a></div> 
+                <div class="headlablel"><a href="http://bbs.zjut.edu.cn/" title="点击进入精弘论坛" target="_blank">FORUM</a></div>
+                <div class="headlablel"><a href="http://bbs.zjut.edu.cn/" title="点击进入精弘资讯" target="_blank">INFORM</a></div>
+                <div class="headlablel"><a href="http://bbs.zjut.edu.cn/" title="点击进入精弘云盘" target="_blank">NETDISK</a></div>
             </div>
     
     
@@ -488,7 +488,7 @@ bottom:880px;
     
     <div class="di">友情链接： 
         <a href="http://www.moe.edu.cn/" title="点击前往中国教育部主页" target="_blank">中国教育部 </a>|
-        <a href="www.univs.cn/" title="点击前往大学生在线" target="_blank">大学生在线</a>     | 
+        <a href="http://www.univs.cn/" title="点击前往大学生在线" target="_blank">大学生在线</a>     | 
         <a href="http://www.zjut.edu.cn/" title="点击前往浙江工业大学主页" target="_blank">浙江工业大学 </a>   | 
         <a href="http://www.lib.zjut.edu.cn/" title="点击前往浙工大图书馆主页" target="_blank">浙工大图书馆 </a>    |
         <a href="http://mail.zjut.edu.cn/" title="点击进入浙工大邮件系统" target="_blank">邮件系统</a>
