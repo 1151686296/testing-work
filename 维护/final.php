@@ -195,7 +195,7 @@ $info=mysqli_fetch_array($sql);
 $number=$info["次数"];
 
 ?>
-<div class="xiao" style="margin-top:35px;width:100px;font-size: 40px;"   >100<?php echo $number; ?></div>
+<div class="xiao" style="margin-top:35px;width:100px;font-size: 40px;"   ><?php echo $number; ?></div>
 
 
 </div>
