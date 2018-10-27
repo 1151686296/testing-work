@@ -7,8 +7,9 @@
 
 
 
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
         <title>精弘网络</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <meta charset="UTF-8">
         <style type="text/css">
     
