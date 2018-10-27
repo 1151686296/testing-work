@@ -3,7 +3,7 @@
 $inter=$_SESSION['inter'];
 if($inter<>2)
 {
-    header("location:index.html");
+    header("location:index.php");
 }
 ?>
 <html>
