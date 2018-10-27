@@ -463,6 +463,8 @@ bottom:880px;
                     <div class="xiao">工大圈圈</div>
                     <div class="da"> <br/><?php echo $info["内容"]; ?></div></div></div>
             
+            
+            
     <div class="red">
       精弘十六载<br> 长路漫漫 与你同在
     </div>
