@@ -174,8 +174,7 @@ if($inter<>2)
 	           	<?php $sql=mysqli_query($conn,"select * from 修改内容 where id='工大圈圈'");
 		                 $info=mysqli_fetch_array($sql);?>
 			             	<label for="myName">工大圈圈----------</label>
-			               	<input type="text" name="text1" class="xiao" value="
-			           <?php echo $info["内容"]; ?>">
+			               	<input type="text" name="text1" class="xiao" value="<?php echo $info["内容"]; ?>">
 				              <input type="submit" value="确认更改" onclick="1" class="quer"><br/>
 		            	</form>
 			           	</div>
@@ -186,8 +185,7 @@ if($inter<>2)
 							            $info=mysqli_fetch_array($sql);
 							            ?>
 											<label for="myName">精弘论坛----------</label>
-					            <input type="text" name="text2" class="xiao"  value="
-								<?php echo $info["内容"]; ?>">
+					            <input type="text" name="text2" class="xiao"  value="<?php echo $info["内容"]; ?>">
 					            <input type="submit" value="确认更改" onclick="1" class="quer"><br/>   
 									</form>
 									</div>
@@ -198,8 +196,7 @@ if($inter<>2)
 					            $info=mysqli_fetch_array($sql);
 					            ?>
 										  <label for="myName">feel电台----------</label>
-					            <input type="text" name="text3" class="xiao"  value="
-								<?php echo $info["内容"]; ?>">
+					            <input type="text" name="text3" class="xiao"  value="<?php echo $info["内容"]; ?>">
 					            <input type="submit" value="确认更改" onclick="1" class="quer"><br/>
 					        </form>
 									</div>
@@ -210,8 +207,7 @@ if($inter<>2)
 						            $info=mysqli_fetch_array($sql);
 						            ?>
 											<label for="myName">精弘网盘----------</label>
-					            <input type="text" name="text4" class="xiao"  value="
-								<?php echo $info["内容"]; ?>">
+					            <input type="text" name="text4" class="xiao"  value="<?php echo $info["内容"]; ?>">
 					            <input type="submit" value="确认更改" onclick="1" class="quer"><br/>
 					        </form>
 									</div>
@@ -222,8 +218,7 @@ if($inter<>2)
 						            $info=mysqli_fetch_array($sql);
 						            ?>
 											<label for="myName">精弘资讯----------</label>
-					            <input type="text" name="text5" class="xiao"  value="
-								<?php echo $info["内容"]; ?>">
+					            <input type="text" name="text5" class="xiao"  value="<?php echo $info["内容"]; ?>">
 					            <input type="submit" value="确认更改" onclick="1" class="quer">
 					        </form>
 									</div>
