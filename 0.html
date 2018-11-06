@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>123</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+已经抽出<span id="count" style="width:30px;">0</span> .
+<input type="button" value="抽签" onclick="numRandom()"/>
+<input type="button" value="清空" onclick="dataClear()"/>
+<br/>
+<span id="show"></span>
+<br/>
+<script>
+var arr = new Array();
+function numRandom(){
+if(arr.length==40){
+alert("已经抽完");
+}
+var r = parseInt(Math.random()*40);
+var sp = document.getElementById("show");
+var flag = true;
+for(var i=0; i<arr.length; i++){
+if(arr[i]==r){
+flag = false;
+}
+}
+if(arr.length<40){
+if(flag){
+arr.push(r);
+sp.innerHTML = sp.innerHTML + "  抽中"+r+"<br/>";
+document.getElementById("count").innerHTML = arr.length;
+}else{
+numRandom();
+}
+}
+}
+function dataClear(){
+arr = null;
+arr = new Array();
+document.getElementById("count").innerHTML = "0";
+document.getElementById("show").innerHTML = "";
+}
+</script>
+</body>
+</html>
